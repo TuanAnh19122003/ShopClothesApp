@@ -57,19 +57,29 @@ const HomeScreen = ({ navigation }) => {
             }
 
             const user = JSON.parse(userData);
-            const payload = {
-                userId: user.id,
-                productId: productId,
-                quantity: 1,
-            };
+            const res = await axios.get(`http://10.0.2.2:3000/api/carts?userId=${user.id}&productId=${productId}`);
+            const existingItem = res.data[0];
 
-            await axios.post('http://10.0.2.2:3000/api/carts', payload);
+            if (existingItem) {
+                await axios.patch(`http://10.0.2.2:3000/api/carts/${existingItem.id}`, {
+                    quantity: existingItem.quantity + 1,
+                });
+            } else {
+                const payload = {
+                    userId: user.id,
+                    productId: productId,
+                    quantity: 1,
+                };
+                await axios.post('http://10.0.2.2:3000/api/carts', payload);
+            }
+
             Alert.alert('Thành công', 'Sản phẩm đã được thêm vào giỏ hàng');
         } catch (error) {
             console.error('Lỗi thêm vào giỏ hàng:', error);
             Alert.alert('Lỗi', 'Không thể thêm vào giỏ hàng');
         }
     };
+
 
     const handleSearch = (text) => {
         setSearchQuery(text);

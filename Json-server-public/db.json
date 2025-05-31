@@ -388,12 +388,20 @@
   ],
   "carts": [
     {
-      "userId": "UK00i10",
-      "productId": "0f541807-efb0-422d-91c7-edf7e3f966e6",
+      "userId": "e00c8569-9cc0-47d4-b484-99d913074b1b",
+      "productId": "397a1411-faec-48ce-ab4c-e856e01a1501",
       "quantity": 1,
-      "createdAt": 1748667126621,
-      "updatedAt": 1748667126621,
-      "id": 1
+      "createdAt": 1748668377428,
+      "updatedAt": 1748668377428,
+      "id": 7
+    },
+    {
+      "userId": "e00c8569-9cc0-47d4-b484-99d913074b1b",
+      "productId": "d858340e-109f-4d0c-9243-3432018f60eb",
+      "quantity": 2,
+      "createdAt": 1748668379297,
+      "updatedAt": 1748668383128,
+      "id": 8
     }
   ],
   "favorites": [
@@ -557,6 +565,25 @@
       "createdAt": 1748598603811,
       "updatedAt": 1748598603811,
       "id": "ZHWR4eS"
+    },
+    {
+      "userId": "UK00i10",
+      "items": [
+        {
+          "productId": "0f541807-efb0-422d-91c7-edf7e3f966e6",
+          "quantity": 2,
+          "price": 348772
+        },
+        {
+          "productId": "397a1411-faec-48ce-ab4c-e856e01a1501",
+          "quantity": 1,
+          "price": 172879
+        }
+      ],
+      "total": 870423,
+      "createdAt": 1748668408556,
+      "updatedAt": 1748668408556,
+      "id": "_-qjvWj"
     }
   ]
 }
