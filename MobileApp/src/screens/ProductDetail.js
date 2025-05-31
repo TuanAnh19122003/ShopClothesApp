@@ -6,11 +6,46 @@ import {
     Image,
     TouchableOpacity,
     ScrollView,
+    Alert,
 } from 'react-native';
 import Icon from '@react-native-vector-icons/ionicons';
+import AsyncStorage from '@react-native-async-storage/async-storage';
+import axios from 'axios';
 
 const ProductDetailScreen = ({ route, navigation }) => {
     const { product } = route.params;
+
+    const handleAddToCart = async () => {
+        try {
+            const userData = await AsyncStorage.getItem('user');
+            if (!userData) {
+                Alert.alert('Thông báo', 'Vui lòng đăng nhập để thêm sản phẩm vào giỏ hàng');
+                return;
+            }
+
+            const user = JSON.parse(userData);
+            const res = await axios.get(`http://10.0.2.2:3000/api/carts?userId=${user.id}&productId=${product.id}`);
+            const existingItem = res.data[0];
+
+            if (existingItem) {
+                await axios.patch(`http://10.0.2.2:3000/api/carts/${existingItem.id}`, {
+                    quantity: existingItem.quantity + 1,
+                });
+            } else {
+                const payload = {
+                    userId: user.id,
+                    productId: product.id,
+                    quantity: 1,
+                };
+                await axios.post('http://10.0.2.2:3000/api/carts', payload);
+            }
+
+            Alert.alert('Thành công', 'Sản phẩm đã được thêm vào giỏ hàng');
+        } catch (error) {
+            console.error('Lỗi thêm vào giỏ hàng:', error);
+            Alert.alert('Lỗi', 'Không thể thêm vào giỏ hàng');
+        }
+    };
 
     return (
         <View style={styles.container}>
@@ -28,7 +63,7 @@ const ProductDetailScreen = ({ route, navigation }) => {
                 <TouchableOpacity style={styles.backButton} onPress={() => navigation.goBack()}>
                     <Icon name="chevron-back" size={24} color="#FF69B4" />
                 </TouchableOpacity>
-                <TouchableOpacity style={styles.addToCartButton}>
+                <TouchableOpacity style={styles.addToCartButton} onPress={handleAddToCart}>
                     <Text style={styles.addToCartText}>Thêm vào giỏ</Text>
                 </TouchableOpacity>
             </View>

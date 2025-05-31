@@ -402,6 +402,14 @@
       "createdAt": 1748668379297,
       "updatedAt": 1748668383128,
       "id": 8
+    },
+    {
+      "userId": "UK00i10",
+      "productId": "d858340e-109f-4d0c-9243-3432018f60eb",
+      "quantity": 2,
+      "createdAt": 1748668513117,
+      "updatedAt": 1748668519836,
+      "id": 9
     }
   ],
   "favorites": [
