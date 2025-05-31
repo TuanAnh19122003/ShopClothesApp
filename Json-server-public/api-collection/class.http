@@ -1,0 +1,45 @@
+@baseUrl=http://localhost:3000/api
+@resourceName=class
+
+#Class
+
+# @name GET-ALL
+GET {{baseUrl}}/{{resourceName}}
+
+
+###
+
+# @name Pangination
+GET {{baseUrl}}/{{resourceName}}?_page=1&_limit=10
+
+###
+
+# @name Sort
+GET {{baseUrl}}/{{resourceName}}?_sort=totalStudent&_order=asc
+
+###
+
+# @name ADD
+POST {{baseUrl}}/{{resourceName}}
+
+Content-Type: application/json
+{
+     "totalStudent": 1,
+     "supervising_Teacher": "Trần Đức Giang",
+     "avatar_Teacher": "https://cdn.fakercloud.com/avatars/stefvdham_128.jpg"
+}
+
+###
+
+# @name UPDATE
+PATCH {{baseUrl}}/{{resourceName}}/{class_id}
+
+Content-Type: :application/json
+{
+  "avatar_Teacher": "https://cdn.fakercloud.com/avatars/stefvdham_128.jpg"
+}
+
+###
+
+# @name DELETE
+DELETE  {{baseUrl}}/{{resourceName}}/{class_id}

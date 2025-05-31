@@ -1,0 +1,552 @@
+{
+  "categories": [
+    {
+      "id": "d9ef741d-c876-465a-9e3d-c3a832474678",
+      "name": "Áo thun"
+    },
+    {
+      "id": "07c0c36b-8758-43fa-9836-3d31ca6dc6f1",
+      "name": "Áo sơ mi"
+    },
+    {
+      "id": "5b1554ad-8893-4658-988c-d0822bc4f322",
+      "name": "Áo khoác"
+    },
+    {
+      "id": "5716f4ff-afae-41e7-84d7-07c356df704d",
+      "name": "Quần jeans"
+    },
+    {
+      "id": "cee7facb-6f1a-454a-9829-9d02dce4f05b",
+      "name": "Quần short"
+    },
+    {
+      "id": "34343976-4e21-4594-bbf7-250bfb5e1fba",
+      "name": "Đầm"
+    },
+    {
+      "id": "5651a177-b7a6-45f9-aed3-9b6ab198d933",
+      "name": "Váy"
+    },
+    {
+      "id": "35855148-042c-4430-95d6-0f588f6ba3c6",
+      "name": "Đồ bộ"
+    },
+    {
+      "id": "c5a2ea61-2c05-49c6-9f7e-1c38ace2fe07",
+      "name": "Đồ thể thao"
+    },
+    {
+      "id": "a6ef01aa-476f-45ef-82dc-c5d1fafcade6",
+      "name": "Áo len"
+    }
+  ],
+  "products": [
+    {
+      "id": "e8f65938-0959-4f34-904a-03e147f18f70",
+      "name": "Đầm Nữ tính cotton",
+      "price": 890235,
+      "image": "https://static.hotdeal.vn/images/624/624411/400x500/125178-dam-ren-cotton-nu-tinh-cirino.jpg",
+      "categoryId": "34343976-4e21-4594-bbf7-250bfb5e1fba",
+      "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals"
+    },
+    {
+      "id": "d858340e-109f-4d0c-9243-3432018f60eb",
+      "name": "Đầm thun lạnh",
+      "price": 812349,
+      "image": "https://product.hstatic.net/1000366086/product/_kem_d7ff0e583f214eca836fafc2fdf6da30_a2b3301acf8a4f8ca0927cc2b82e1088_f67ef9defb4343ca8ba2444379d4effa.jpg",
+      "categoryId": "34343976-4e21-4594-bbf7-250bfb5e1fba",
+      "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles"
+    },
+    {
+      "id": "0f541807-efb0-422d-91c7-edf7e3f966e6",
+      "name": "Áo len Thời trang nỉ",
+      "price": 348772,
+      "image": "https://product.hstatic.net/1000360022/product/ao-len-cardigan-icondenim-basic-theu-logo_cba3cb271daa4d5aa5f86f1812986378_1024x1024.jpg",
+      "categoryId": "a6ef01aa-476f-45ef-82dc-c5d1fafcade6",
+      "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles"
+    },
+    {
+      "id": "397a1411-faec-48ce-ab4c-e856e01a1501",
+      "name": "Áo sơ mi Nữ tính thun",
+      "price": 172879,
+      "image": "https://aaajeans.com/wp-content/uploads/2021/08/ao-so-mi-phoi-voi-ao-thun-nu-3.jpg",
+      "categoryId": "07c0c36b-8758-43fa-9836-3d31ca6dc6f1",
+      "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design"
+    },
+    {
+      "id": "4dbe8a09-d856-4cae-8d5c-9fa9d06093c7",
+      "name": "Áo sơ mi Nam tính",
+      "price": 520183,
+      "image": "https://static.hotdeal.vn/images/1027/1027029/400x500/262039-ao-so-mi-nam-ca-tinh-thoi-trang-261991-vn-2-3-4-5-6-7-8-9-10-11-12.jpg",
+      "categoryId": "07c0c36b-8758-43fa-9836-3d31ca6dc6f1",
+      "description": "The Football Is Good For Training And Recreational Purposes"
+    },
+    {
+      "id": "95a68c75-5bba-4f2d-9081-f089ec18e6cc",
+      "name": "Áo sơ mi Hiện đại nỉ",
+      "price": 247001,
+      "image": "https://owen.cdn.vccloud.vn/media/catalog/product/cache/d52d7e242fac6dae82288d9a793c0676/q/r/qr242838._6-2.jpg",
+      "categoryId": "07c0c36b-8758-43fa-9836-3d31ca6dc6f1",
+      "description": "The Football Is Good For Training And Recreational Purposes"
+    },
+    {
+      "id": "928a57c9-4fff-4ad8-9316-d0040e52c3b4",
+      "name": "Áo khoác Basic jeans",
+      "price": 941034,
+      "image": "https://s3.ap-southeast-1.amazonaws.com/thegmen.vn/2023/3/1679305993206xqu3f.jpg",
+      "categoryId": "5b1554ad-8893-4658-988c-d0822bc4f322",
+      "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients"
+    },
+    {
+      "id": "eeca8d9b-3893-4a8b-9445-5f9338a2a7cf",
+      "name": "Đầm Cổ điển lanh",
+      "price": 273847,
+      "image": "http://placeimg.com/640/480/fashion",
+      "categoryId": "34343976-4e21-4594-bbf7-250bfb5e1fba",
+      "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart"
+    },
+    {
+      "id": "20a217ec-9286-48b0-8638-f6c6094523a3",
+      "name": "Quần jeans Cổ điển kate",
+      "price": 696782,
+      "image": "http://placeimg.com/640/480/fashion",
+      "categoryId": "5716f4ff-afae-41e7-84d7-07c356df704d",
+      "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design"
+    },
+    {
+      "id": "f9d193c5-eaa1-41e3-ae54-24429f0a9f17",
+      "name": "Đầm Cao cấp nỉ",
+      "price": 332587,
+      "image": "http://placeimg.com/640/480/fashion",
+      "categoryId": "34343976-4e21-4594-bbf7-250bfb5e1fba",
+      "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit"
+    },
+    {
+      "id": "fd054552-4d7e-4c40-b6a5-83232b1de828",
+      "name": "Váy Thời trang cotton",
+      "price": 551595,
+      "image": "http://placeimg.com/640/480/fashion",
+      "categoryId": "5651a177-b7a6-45f9-aed3-9b6ab198d933",
+      "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit"
+    },
+    {
+      "id": "407b059e-22cd-4fb8-8204-2f399dda1d5a",
+      "name": "Đồ bộ Basic lanh",
+      "price": 539212,
+      "image": "http://placeimg.com/640/480/fashion",
+      "categoryId": "35855148-042c-4430-95d6-0f588f6ba3c6",
+      "description": "The Football Is Good For Training And Recreational Purposes"
+    },
+    {
+      "id": "7a48e353-4a93-46a7-8dcc-2d5106cb2de2",
+      "name": "Đồ thể thao Cổ điển thun lạnh",
+      "price": 985652,
+      "image": "http://placeimg.com/640/480/fashion",
+      "categoryId": "c5a2ea61-2c05-49c6-9f7e-1c38ace2fe07",
+      "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients"
+    },
+    {
+      "id": "af97aa7e-c823-4294-906e-67730ec45d42",
+      "name": "Đồ thể thao Basic thun lạnh",
+      "price": 194433,
+      "image": "http://placeimg.com/640/480/fashion",
+      "categoryId": "c5a2ea61-2c05-49c6-9f7e-1c38ace2fe07",
+      "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit"
+    },
+    {
+      "id": "aa2f9ede-6a44-46cc-a22a-1a75c3b69c6c",
+      "name": "Váy Form rộng nỉ",
+      "price": 846527,
+      "image": "http://placeimg.com/640/480/fashion",
+      "categoryId": "5651a177-b7a6-45f9-aed3-9b6ab198d933",
+      "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles"
+    },
+    {
+      "id": "b5b96c7a-22c6-4166-91d7-19bf8f03bc6a",
+      "name": "Áo thun Nam tính thun lạnh",
+      "price": 146062,
+      "image": "http://placeimg.com/640/480/fashion",
+      "categoryId": "d9ef741d-c876-465a-9e3d-c3a832474678",
+      "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals"
+    },
+    {
+      "id": "f214e401-f5ec-4b54-989f-20630cf84284",
+      "name": "Quần short Basic thun lạnh",
+      "price": 229134,
+      "image": "http://placeimg.com/640/480/fashion",
+      "categoryId": "cee7facb-6f1a-454a-9829-9d02dce4f05b",
+      "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit"
+    },
+    {
+      "id": "7e5b1a83-84ac-44dc-b358-7faba808fdf0",
+      "name": "Áo khoác Form rộng jeans",
+      "price": 265287,
+      "image": "http://placeimg.com/640/480/fashion",
+      "categoryId": "5b1554ad-8893-4658-988c-d0822bc4f322",
+      "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive"
+    },
+    {
+      "id": "c98c95a9-112e-4778-9bea-b67dc3134eaf",
+      "name": "Đồ thể thao Cao cấp nỉ",
+      "price": 472621,
+      "image": "http://placeimg.com/640/480/fashion",
+      "categoryId": "c5a2ea61-2c05-49c6-9f7e-1c38ace2fe07",
+      "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit"
+    },
+    {
+      "id": "724aad7c-e745-48d5-a7c0-6f5872d01905",
+      "name": "Đồ thể thao Basic nỉ",
+      "price": 774260,
+      "image": "http://placeimg.com/640/480/fashion",
+      "categoryId": "c5a2ea61-2c05-49c6-9f7e-1c38ace2fe07",
+      "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients"
+    },
+    {
+      "id": "db00c55d-bda7-4131-b647-a0a09fae5525",
+      "name": "Đồ thể thao Slim-fit cotton",
+      "price": 612742,
+      "image": "http://placeimg.com/640/480/fashion",
+      "categoryId": "c5a2ea61-2c05-49c6-9f7e-1c38ace2fe07",
+      "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive"
+    },
+    {
+      "id": "51380641-f91a-42d5-ba2c-62c3ca044675",
+      "name": "Váy Nam tính cotton",
+      "price": 762875,
+      "image": "http://placeimg.com/640/480/fashion",
+      "categoryId": "5651a177-b7a6-45f9-aed3-9b6ab198d933",
+      "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive"
+    },
+    {
+      "id": "2edaed1f-773f-4335-b171-eeaa375bea08",
+      "name": "Đồ bộ Cao cấp thun lạnh",
+      "price": 474407,
+      "image": "http://placeimg.com/640/480/fashion",
+      "categoryId": "35855148-042c-4430-95d6-0f588f6ba3c6",
+      "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals"
+    },
+    {
+      "id": "b76aa621-766c-4420-b0b3-e3ba67796237",
+      "name": "Đồ thể thao Nữ tính lanh",
+      "price": 744310,
+      "image": "http://placeimg.com/640/480/fashion",
+      "categoryId": "c5a2ea61-2c05-49c6-9f7e-1c38ace2fe07",
+      "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles"
+    },
+    {
+      "id": "7fa4a011-f7f5-447e-8e24-bdf4c6cbd4c1",
+      "name": "Váy Cổ điển thun lạnh",
+      "price": 540862,
+      "image": "http://placeimg.com/640/480/fashion",
+      "categoryId": "5651a177-b7a6-45f9-aed3-9b6ab198d933",
+      "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality"
+    },
+    {
+      "id": "79a9cf29-d87f-4aa1-ac97-773ce1cb6c42",
+      "name": "Váy Basic thun lạnh",
+      "price": 324098,
+      "image": "http://placeimg.com/640/480/fashion",
+      "categoryId": "5651a177-b7a6-45f9-aed3-9b6ab198d933",
+      "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles"
+    },
+    {
+      "id": "ebc9e082-0574-4c30-a8e2-00dba0f8edc0",
+      "name": "Đồ bộ Thời trang thun lạnh",
+      "price": 868655,
+      "image": "http://placeimg.com/640/480/fashion",
+      "categoryId": "35855148-042c-4430-95d6-0f588f6ba3c6",
+      "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support"
+    },
+    {
+      "id": "67a0c2f7-be2d-4101-9d65-c83942ab44e5",
+      "name": "Quần jeans Nữ tính thun lạnh",
+      "price": 920015,
+      "image": "http://placeimg.com/640/480/fashion",
+      "categoryId": "5716f4ff-afae-41e7-84d7-07c356df704d",
+      "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart"
+    },
+    {
+      "id": "fe13d793-6a2c-40d8-9b1f-66627ac56371",
+      "name": "Áo khoác Thời trang lanh",
+      "price": 850977,
+      "image": "http://placeimg.com/640/480/fashion",
+      "categoryId": "5b1554ad-8893-4658-988c-d0822bc4f322",
+      "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive"
+    },
+    {
+      "id": "de46e157-45bc-41a4-8597-6c2aa41fb1d4",
+      "name": "Quần jeans Cao cấp nỉ",
+      "price": 832084,
+      "image": "http://placeimg.com/640/480/fashion",
+      "categoryId": "5716f4ff-afae-41e7-84d7-07c356df704d",
+      "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016"
+    }
+  ],
+  "users": [
+    {
+      "id": "e00c8569-9cc0-47d4-b484-99d913074b1b",
+      "name": "Trịnh Tuấn Anh",
+      "email": "tank1912@gmail.com",
+      "phone": "0203 0869 2623",
+      "address": "4344 Cao Thọ Trace",
+      "avatar": "https://cdn.fakercloud.com/avatars/victorerixon_128.jpg",
+      "password": "123456"
+    },
+    {
+      "id": "0321a70e-9de2-4416-9abe-4373224c2f99",
+      "name": "Tôn Lễ Hà",
+      "email": "BchLam81@gmail.com",
+      "phone": "021 0934 1481",
+      "address": "496 Gia Hiệp Corners",
+      "avatar": "https://cdn.fakercloud.com/avatars/bluesix_128.jpg",
+      "password": "xLBu1QND"
+    },
+    {
+      "id": "016473c6-193f-4972-b0b2-7a0fc1226578",
+      "name": "Uy Vũ Mai MD",
+      "email": "CmHng_Phng@gmail.com",
+      "phone": "028 9788 0502",
+      "address": "65437 Tô Vista",
+      "avatar": "https://cdn.fakercloud.com/avatars/helderleal_128.jpg",
+      "password": "2n07Egwr"
+    },
+    {
+      "id": "7711beee-3bd0-4c20-809c-368fef0b4664",
+      "name": "Sơn Hà Đinh",
+      "email": "NhtHng_T@gmail.com",
+      "phone": "026 1427 4693",
+      "address": "220 Phương Loan Vista",
+      "avatar": "https://cdn.fakercloud.com/avatars/jonkspr_128.jpg",
+      "password": "UQvnZXnB"
+    },
+    {
+      "id": "efa5a506-4f26-451b-acd2-1156710f6dec",
+      "name": "Thanh Nhã Tô",
+      "email": "HuyPhong_Vng@hotmail.com",
+      "phone": "0271 5160 6823",
+      "address": "9804 Trúc Lâm Fort",
+      "avatar": "https://cdn.fakercloud.com/avatars/bboy1895_128.jpg",
+      "password": "I23TVrEW"
+    },
+    {
+      "id": "4e1ede31-7236-4157-b764-6babc9d856a3",
+      "name": "Thi Thi Tăng",
+      "email": "DngTr57@hotmail.com",
+      "phone": "028 1985 2815",
+      "address": "531 Mai Trafficway",
+      "avatar": "https://cdn.fakercloud.com/avatars/strikewan_128.jpg",
+      "password": "jPoTQ5v0"
+    },
+    {
+      "id": "9b39a738-e4fa-44e7-8d0d-ea4f1e465771",
+      "name": "Ðông Hải Vương",
+      "email": "KhcMinh_Mai15@gmail.com",
+      "phone": "022 0016 8568",
+      "address": "7381 Yến Anh Lock",
+      "avatar": "https://cdn.fakercloud.com/avatars/gofrasdesign_128.jpg",
+      "password": "v6mcWStO"
+    },
+    {
+      "id": "c1e84d92-d3b5-4b5c-9575-8711ec838649",
+      "name": "Khánh Vy Tô",
+      "email": "QucTr.Dng@yahoo.com",
+      "phone": "0290 4883 7232",
+      "address": "8503 Nghi Dung Parkway",
+      "avatar": "https://cdn.fakercloud.com/avatars/tgerken_128.jpg",
+      "password": "KkxlJiaU"
+    },
+    {
+      "id": "78b26ddf-de51-45e8-97a5-157113faaf64",
+      "name": "Trang Anh Trần DDS",
+      "email": "TunKhoan21@gmail.com",
+      "phone": "0204 1465 4687",
+      "address": "85727 Tịnh Yên Radial",
+      "avatar": "https://cdn.fakercloud.com/avatars/catarino_128.jpg",
+      "password": "WJVrVWeG"
+    },
+    {
+      "id": "bf01e24d-bc4e-4ee5-97de-5e8840bdda28",
+      "name": "Vinh Quốc Tăng",
+      "email": "ThanhHo.H@yahoo.com",
+      "phone": "025 6623 5687",
+      "address": "53641 Mai Underpass",
+      "avatar": "https://cdn.fakercloud.com/avatars/nickfratter_128.jpg",
+      "password": "vzqQHTiB"
+    },
+    {
+      "name": "Nguyen Van An",
+      "email": "an12@gmail.com",
+      "password": "12345678",
+      "phone": "0192837465",
+      "address": "Quang Ninh",
+      "createdAt": 1748587555749,
+      "updatedAt": 1748587555749,
+      "id": "yMCFALj"
+    }
+  ],
+  "carts": [],
+  "favorites": [
+    {
+      "id": "52ec4d03-99ea-4b31-b34d-26ced606cb21",
+      "userId": "e00c8569-9cc0-47d4-b484-99d913074b1b",
+      "productId": "95a68c75-5bba-4f2d-9081-f089ec18e6cc"
+    },
+    {
+      "id": "1326e6b4-f7f6-48b7-b4c0-ca38d3b90c65",
+      "userId": "e00c8569-9cc0-47d4-b484-99d913074b1b",
+      "productId": "67a0c2f7-be2d-4101-9d65-c83942ab44e5"
+    },
+    {
+      "id": "7381cea6-0d38-4e01-9693-c0af3811dc37",
+      "userId": "e00c8569-9cc0-47d4-b484-99d913074b1b",
+      "productId": "aa2f9ede-6a44-46cc-a22a-1a75c3b69c6c"
+    },
+    {
+      "id": "c4006223-f46a-43fe-be87-175a58efec57",
+      "userId": "e00c8569-9cc0-47d4-b484-99d913074b1b",
+      "productId": "724aad7c-e745-48d5-a7c0-6f5872d01905"
+    },
+    {
+      "id": "11cf7095-e464-4c94-b1b8-3e050f5301f4",
+      "userId": "e00c8569-9cc0-47d4-b484-99d913074b1b",
+      "productId": "c98c95a9-112e-4778-9bea-b67dc3134eaf"
+    },
+    {
+      "id": "7153acdc-9165-4e17-81b0-41e8b19296bf",
+      "userId": "0321a70e-9de2-4416-9abe-4373224c2f99",
+      "productId": "d858340e-109f-4d0c-9243-3432018f60eb"
+    },
+    {
+      "id": "5aae3ba2-8209-444c-a863-5c9efd888ebb",
+      "userId": "0321a70e-9de2-4416-9abe-4373224c2f99",
+      "productId": "eeca8d9b-3893-4a8b-9445-5f9338a2a7cf"
+    },
+    {
+      "id": "cb65289c-18e0-4089-94dc-932e973e7363",
+      "userId": "0321a70e-9de2-4416-9abe-4373224c2f99",
+      "productId": "20a217ec-9286-48b0-8638-f6c6094523a3"
+    },
+    {
+      "id": "7a60f193-6d5d-498e-a1c9-c8bdaae4703b",
+      "userId": "0321a70e-9de2-4416-9abe-4373224c2f99",
+      "productId": "e8f65938-0959-4f34-904a-03e147f18f70"
+    },
+    {
+      "id": "1395f34d-f6cb-4077-bafa-9e15780947f5",
+      "userId": "016473c6-193f-4972-b0b2-7a0fc1226578",
+      "productId": "724aad7c-e745-48d5-a7c0-6f5872d01905"
+    },
+    {
+      "id": "cac96205-cb68-497e-933d-6108d2db498f",
+      "userId": "016473c6-193f-4972-b0b2-7a0fc1226578",
+      "productId": "79a9cf29-d87f-4aa1-ac97-773ce1cb6c42"
+    },
+    {
+      "id": "d4a5ed32-9ab4-48c8-b77d-26b5d724c8ac",
+      "userId": "016473c6-193f-4972-b0b2-7a0fc1226578",
+      "productId": "d858340e-109f-4d0c-9243-3432018f60eb"
+    },
+    {
+      "id": "8811ff6e-ecbb-4c4a-ad7e-b7b47d75c210",
+      "userId": "7711beee-3bd0-4c20-809c-368fef0b4664",
+      "productId": "67a0c2f7-be2d-4101-9d65-c83942ab44e5"
+    },
+    {
+      "id": "90f5e59e-c64a-43ff-9744-28069c70ad6d",
+      "userId": "7711beee-3bd0-4c20-809c-368fef0b4664",
+      "productId": "fe13d793-6a2c-40d8-9b1f-66627ac56371"
+    },
+    {
+      "id": "be69f4c9-3237-4712-b06b-20efc645355a",
+      "userId": "efa5a506-4f26-451b-acd2-1156710f6dec",
+      "productId": "fd054552-4d7e-4c40-b6a5-83232b1de828"
+    },
+    {
+      "id": "ce22e48a-f42d-4980-a57d-1328dd448631",
+      "userId": "efa5a506-4f26-451b-acd2-1156710f6dec",
+      "productId": "7e5b1a83-84ac-44dc-b358-7faba808fdf0"
+    },
+    {
+      "id": "3f1ed9fc-a73c-4e8b-a93b-291482bf45d9",
+      "userId": "4e1ede31-7236-4157-b764-6babc9d856a3",
+      "productId": "ebc9e082-0574-4c30-a8e2-00dba0f8edc0"
+    },
+    {
+      "id": "3d4e66e8-bfc3-4ceb-a0f0-2ffd3fc66af3",
+      "userId": "4e1ede31-7236-4157-b764-6babc9d856a3",
+      "productId": "b5b96c7a-22c6-4166-91d7-19bf8f03bc6a"
+    },
+    {
+      "id": "eccbd573-ea4c-463d-b288-6a62358130ad",
+      "userId": "4e1ede31-7236-4157-b764-6babc9d856a3",
+      "productId": "fe13d793-6a2c-40d8-9b1f-66627ac56371"
+    },
+    {
+      "id": "746df83f-6db0-405c-9c74-b7baddf329d8",
+      "userId": "9b39a738-e4fa-44e7-8d0d-ea4f1e465771",
+      "productId": "79a9cf29-d87f-4aa1-ac97-773ce1cb6c42"
+    },
+    {
+      "id": "774e825e-040a-41e1-9881-0f43fd3efc19",
+      "userId": "9b39a738-e4fa-44e7-8d0d-ea4f1e465771",
+      "productId": "f214e401-f5ec-4b54-989f-20630cf84284"
+    },
+    {
+      "id": "a0f530be-aa13-4c9f-b7e8-4342915611d8",
+      "userId": "9b39a738-e4fa-44e7-8d0d-ea4f1e465771",
+      "productId": "af97aa7e-c823-4294-906e-67730ec45d42"
+    },
+    {
+      "id": "dc8e8646-5af7-4791-8279-694aa7e6bb60",
+      "userId": "c1e84d92-d3b5-4b5c-9575-8711ec838649",
+      "productId": "407b059e-22cd-4fb8-8204-2f399dda1d5a"
+    },
+    {
+      "id": "feed9f15-2149-45ef-9f1b-63a71769411d",
+      "userId": "78b26ddf-de51-45e8-97a5-157113faaf64",
+      "productId": "7e5b1a83-84ac-44dc-b358-7faba808fdf0"
+    },
+    {
+      "id": "7038bfbd-5b00-4c1b-924e-45d1a9ddeb17",
+      "userId": "78b26ddf-de51-45e8-97a5-157113faaf64",
+      "productId": "79a9cf29-d87f-4aa1-ac97-773ce1cb6c42"
+    },
+    {
+      "id": "df54daed-ea2e-44d6-b031-a8c398b870f9",
+      "userId": "bf01e24d-bc4e-4ee5-97de-5e8840bdda28",
+      "productId": "fe13d793-6a2c-40d8-9b1f-66627ac56371"
+    },
+    {
+      "id": "1a357be0-96e5-461c-81db-fa4b8c672dd9",
+      "userId": "bf01e24d-bc4e-4ee5-97de-5e8840bdda28",
+      "productId": "407b059e-22cd-4fb8-8204-2f399dda1d5a"
+    },
+    {
+      "id": "15043240-db25-4029-b6b1-60f1548cc29f",
+      "userId": "bf01e24d-bc4e-4ee5-97de-5e8840bdda28",
+      "productId": "928a57c9-4fff-4ad8-9316-d0040e52c3b4"
+    }
+  ],
+  "invoices": [
+    {
+      "userId": "e00c8569-9cc0-47d4-b484-99d913074b1b",
+      "items": [
+        {
+          "productId": "0f541807-efb0-422d-91c7-edf7e3f966e6",
+          "quantity": 1,
+          "price": 348772
+        },
+        {
+          "productId": "d858340e-109f-4d0c-9243-3432018f60eb",
+          "quantity": 1,
+          "price": 812349
+        }
+      ],
+      "total": 1161121,
+      "createdAt": 1748598603811,
+      "updatedAt": 1748598603811,
+      "id": "ZHWR4eS"
+    }
+  ]
+}
