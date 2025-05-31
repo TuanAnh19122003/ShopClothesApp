@@ -21,6 +21,7 @@
     "axios": "^1.9.0",
     "react": "19.0.0",
     "react-native": "0.79.2",
+    "react-native-dialog": "^9.3.0",
     "react-native-safe-area-context": "^5.4.1",
     "react-native-screens": "^4.11.1"
   },

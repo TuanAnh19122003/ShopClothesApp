@@ -290,7 +290,7 @@
       "email": "tank1912@gmail.com",
       "phone": "0203 0869 2623",
       "address": "4344 Cao Thọ Trace",
-      "avatar": "https://cdn.fakercloud.com/avatars/victorerixon_128.jpg",
+      "avatar": "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fwww.gravatar.com%2Favatar%2F2c7d99fe281ecd3bcd65ab915bac6dd5%3Fs%3D250",
       "password": "123456"
     },
     {
@@ -381,8 +381,9 @@
       "phone": "0981237645",
       "address": "Quang Ngai",
       "createdAt": 1748665421314,
-      "updatedAt": 1748665421314,
-      "id": "UK00i10"
+      "updatedAt": 1748666125039,
+      "id": "UK00i10",
+      "avatar": "https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
     }
   ],
   "carts": [],
