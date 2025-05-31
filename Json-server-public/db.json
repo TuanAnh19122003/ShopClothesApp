@@ -376,12 +376,12 @@
     },
     {
       "name": "Nguyen Van An",
-      "email": "An12@gmail.com",
+      "email": "An123@gmail.com",
       "password": "12345678",
       "phone": "0981237645",
-      "address": "Quang Ngai",
+      "address": "Ha Noi",
       "createdAt": 1748665421314,
-      "updatedAt": 1748666125039,
+      "updatedAt": 1748666728843,
       "id": "UK00i10",
       "avatar": "https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
     }

@@ -7,14 +7,24 @@ import Dialog from 'react-native-dialog';
 const ProfileScreen = ({ navigation }) => {
     const [user, setUser] = useState(null);
     const [showDialog, setShowDialog] = useState(false);
-    const [newAvatarUrl, setNewAvatarUrl] = useState('');
+    const [email, setEmail] = useState('');
+    const [avatarUrl, setAvatarUrl] = useState('');
+    const [name, setName] = useState('');
+    const [phone, setPhone] = useState('');
+    const [address, setAddress] = useState('');
 
     useEffect(() => {
         const fetchUser = async () => {
             try {
                 const userData = await AsyncStorage.getItem('user');
                 if (userData) {
-                    setUser(JSON.parse(userData));
+                    const parsed = JSON.parse(userData);
+                    setUser(parsed);
+                    setAvatarUrl(parsed.avatar);
+                    setName(parsed.name);
+                    setPhone(parsed.phone);
+                    setAddress(parsed.address);
+                    setEmail(parsed.email)
                 }
             } catch (err) {
                 console.log('Lỗi khi lấy user:', err);
@@ -29,13 +39,20 @@ const ProfileScreen = ({ navigation }) => {
         navigation.replace('Login');
     };
 
-    const handleSaveAvatar = async () => {
-        if (!newAvatarUrl.trim()) {
-            Alert.alert('Lỗi', 'Vui lòng nhập link ảnh hợp lệ.');
+    const handleSaveProfile = async () => {
+        if (!avatarUrl.trim() || !name.trim() || !phone.trim() || !address.trim()) {
+            Alert.alert('Lỗi', 'Vui lòng điền đầy đủ tất cả các trường.');
             return;
         }
 
-        const updatedUser = { ...user, avatar: newAvatarUrl.trim() };
+        const updatedUser = {
+            ...user,
+            avatar: avatarUrl.trim(),
+            name: name.trim(),
+            phone: phone.trim(),
+            address: address.trim(),
+            email: email.trim(),
+        };
 
         try {
             const response = await fetch(`http://10.0.2.2:3000/api/users/${user.id}`, {
@@ -46,19 +63,15 @@ const ProfileScreen = ({ navigation }) => {
                 body: JSON.stringify(updatedUser),
             });
 
-            if (!response.ok) {
-                throw new Error('Không thể cập nhật người dùng trên server');
-            }
+            if (!response.ok) throw new Error('Không thể cập nhật thông tin người dùng');
 
-            // Cập nhật local
             await AsyncStorage.setItem('user', JSON.stringify(updatedUser));
             setUser(updatedUser);
             setShowDialog(false);
-            setNewAvatarUrl('');
-            Alert.alert('Thành công', 'Ảnh đại diện đã được cập nhật');
+            Alert.alert('Thành công', 'Thông tin người dùng đã được cập nhật');
         } catch (err) {
-            console.error('Lỗi cập nhật avatar:', err);
-            Alert.alert('Lỗi', 'Cập nhật ảnh thất bại, vui lòng thử lại');
+            console.error('Lỗi cập nhật:', err);
+            Alert.alert('Lỗi', 'Không thể cập nhật, vui lòng thử lại');
         }
     };
 
@@ -79,7 +92,7 @@ const ProfileScreen = ({ navigation }) => {
                 <Text style={styles.name}>{user.name}</Text>
                 <Text style={styles.email}>{user.email}</Text>
                 <TouchableOpacity onPress={() => setShowDialog(true)}>
-                    <Text style={styles.editAvatarText}>Chỉnh sửa ảnh đại diện</Text>
+                    <Text style={styles.editAvatarText}>Chỉnh sửa thông tin</Text>
                 </TouchableOpacity>
             </View>
 
@@ -99,18 +112,61 @@ const ProfileScreen = ({ navigation }) => {
                 <Text style={styles.logoutText}>Đăng xuất</Text>
             </TouchableOpacity>
 
-            {/* Hộp thoại nhập link ảnh */}
             <Dialog.Container visible={showDialog}>
-                <Dialog.Title>Đổi ảnh đại diện</Dialog.Title>
-                <Dialog.Description>Nhập link ảnh mới của bạn:</Dialog.Description>
-                <Dialog.Input
-                    value={newAvatarUrl}
-                    onChangeText={setNewAvatarUrl}
-                    placeholder="https://link-anh.jpg"
-                />
+                <Dialog.Title>Chỉnh sửa thông tin</Dialog.Title>
+
+                <View style={styles.inputRow}>
+                    <Text style={styles.label}>Ảnh:</Text>
+                    <Dialog.Input
+                        value={avatarUrl}
+                        onChangeText={setAvatarUrl}
+                        style={styles.input}
+                    />
+                </View>
+
+                <View style={styles.inputRow}>
+                    <Text style={styles.label}>Email:</Text>
+                    <Dialog.Input
+                        value={email}
+                        onChangeText={setEmail}
+                        keyboardType="email-address"
+                        autoCapitalize="none"
+                        style={styles.input}
+                    />
+                </View>
+
+                <View style={styles.inputRow}>
+                    <Text style={styles.label}>Tên:</Text>
+                    <Dialog.Input
+                        value={name}
+                        onChangeText={setName}
+                        style={styles.input}
+                    />
+                </View>
+
+                <View style={styles.inputRow}>
+                    <Text style={styles.label}>SĐT:</Text>
+                    <Dialog.Input
+                        value={phone}
+                        onChangeText={setPhone}
+                        keyboardType="phone-pad"
+                        style={styles.input}
+                    />
+                </View>
+
+                <View style={styles.inputRow}>
+                    <Text style={styles.label}>Địa chỉ:</Text>
+                    <Dialog.Input
+                        value={address}
+                        onChangeText={setAddress}
+                        style={styles.input}
+                    />
+                </View>
+
                 <Dialog.Button label="Hủy" onPress={() => setShowDialog(false)} />
-                <Dialog.Button label="Lưu" onPress={handleSaveAvatar} />
+                <Dialog.Button label="Lưu" onPress={handleSaveProfile} />
             </Dialog.Container>
+
         </View>
     );
 };
