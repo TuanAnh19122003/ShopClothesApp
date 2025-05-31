@@ -19,12 +19,15 @@ const HomeScreen = ({ navigation }) => {
     const [loading, setLoading] = useState(true);
     const [userName, setUserName] = useState('');
     const [userAvatar, setUserAvatar] = useState(null);
+    const [searchQuery, setSearchQuery] = useState('');
+    const [filteredProducts, setFilteredProducts] = useState([]);
 
 
     const fetchProducts = async () => {
         try {
             const res = await axios.get('http://10.0.2.2:3000/api/products');
             setProducts(res.data);
+            setFilteredProducts(res.data);
         } catch (err) {
             console.error('Lỗi khi fetch sản phẩm:', err);
         } finally {
@@ -68,6 +71,18 @@ const HomeScreen = ({ navigation }) => {
         }
     };
 
+    const handleSearch = (text) => {
+        setSearchQuery(text);
+
+        if (text.trim() === '') {
+            setFilteredProducts(products);
+        } else {
+            const filtered = products.filter(product =>
+                product.name.toLowerCase().includes(text.toLowerCase())
+            );
+            setFilteredProducts(filtered);
+        }
+    };
 
 
     useEffect(() => {
@@ -111,7 +126,10 @@ const HomeScreen = ({ navigation }) => {
                     placeholder="Tìm kiếm sản phẩm..."
                     placeholderTextColor="#888"
                     style={styles.search}
+                    value={searchQuery}
+                    onChangeText={handleSearch}
                 />
+
                 <Icon name="search" size={30} style={styles.icon} />
             </View>
 
@@ -119,7 +137,7 @@ const HomeScreen = ({ navigation }) => {
                 <ActivityIndicator size="large" color="#FF69B4" style={{ marginTop: 20 }} />
             ) : (
                 <FlatList
-                    data={products}
+                    data={filteredProducts}
                     renderItem={renderItemProduct}
                     keyExtractor={(item) => item.id}
                     numColumns={2}
