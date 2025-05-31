@@ -386,7 +386,16 @@
       "avatar": "https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
     }
   ],
-  "carts": [],
+  "carts": [
+    {
+      "userId": "UK00i10",
+      "productId": "0f541807-efb0-422d-91c7-edf7e3f966e6",
+      "quantity": 1,
+      "createdAt": 1748667126621,
+      "updatedAt": 1748667126621,
+      "id": 1
+    }
+  ],
   "favorites": [
     {
       "id": "52ec4d03-99ea-4b31-b34d-26ced606cb21",
